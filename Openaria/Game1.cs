@@ -20,8 +20,10 @@ namespace Openaria
 		public Game1 ()
 		{
 			graphics = new GraphicsDeviceManager (this);
-			Content.RootDirectory = "Content";	            
-			graphics.IsFullScreen = true;		
+			Content.RootDirectory = "Content";
+			graphics.PreferredBackBufferWidth = 1024;
+			graphics.PreferredBackBufferHeight = 768;	            
+			graphics.IsFullScreen = false;		
 		}
 
 		/// <summary>

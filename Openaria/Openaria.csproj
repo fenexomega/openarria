@@ -8,7 +8,7 @@
     <ProjectGuid>{96205A80-A31B-458F-82D6-61BA21671588}</ProjectGuid>
     <ProjectTypeGuids>{9B831FEF-F496-498F-9FE8-180DA5CB4258};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Openerraria</RootNamespace>
+    <RootNamespace>Openaria</RootNamespace>
     <MonoGamePlatform>Linux</MonoGamePlatform>
     <AssemblyName>Openerraria</AssemblyName>
   </PropertyGroup>
@@ -37,16 +37,16 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="MonoGame.Framework">
-      <HintPath>..\..\Projetos\Monogame SDL2\MonoGame.Framework.dll</HintPath>
+      <HintPath>..\..\Monogame SDL2\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="Lidgren.Network">
-      <HintPath>..\..\Projetos\Monogame SDL2\Lidgren.Network.dll</HintPath>
+      <HintPath>..\..\Monogame SDL2\Lidgren.Network.dll</HintPath>
     </Reference>
     <Reference Include="SDL2#">
-      <HintPath>..\..\Projetos\Monogame SDL2\SDL2#.dll</HintPath>
+      <HintPath>..\..\Monogame SDL2\SDL2#.dll</HintPath>
     </Reference>
     <Reference Include="TheoraPlay#">
-      <HintPath>..\..\Projetos\Monogame SDL2\TheoraPlay#.dll</HintPath>
+      <HintPath>..\..\Monogame SDL2\TheoraPlay#.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="drawableGameComponent.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="World.cs" />
+    <Compile Include="Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Icon.png" />
